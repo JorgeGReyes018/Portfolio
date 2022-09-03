@@ -1,19 +1,8 @@
 header {
-  background-color: rgb(100, 100, 100);
+  background-color: rgb(40, 40, 40);
   display: flex;
   color: white;
   padding: 10px;
-}
-
-.title {
-  background-color: rgb(200, 200, 200);
-  border: 2px solid rgba(0, 0, 0, 0.7);
-  box-sizing: border-box;
-  border-radius: 10px;
-  width: 205px;
-  padding: 8px 20px;
-  color: black;
-  font-size: 22px;
 }
 
 .title a {
@@ -22,16 +11,20 @@ header {
 }
 
 nav {
-  margin: 12px 20px 0;
+  margin: 30px 20px 0;
 }
 
 nav li {
   display: inline;
   font-size: 18px;
-  margin-left: 40px;
+  margin: 30px;
 }
 
 nav li a {
   text-decoration: none;
   color: white;
+}
+
+nav li a:hover {
+  color: rgb(100, 127, 144);
 }
