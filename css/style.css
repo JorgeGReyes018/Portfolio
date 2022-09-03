@@ -72,6 +72,15 @@ nav li a:hover {
   nav ul li {
     margin: 20px;
   }
+  .carousel-caption {
+    height: 70px;
+  }
+  .carousel-caption h5 {
+    font-size: 1rem;
+  }
+  .carousel-caption p {
+    font-size: 0.60rem;
+  }
 }
 
 @media only screen and (max-width: 720px) {
