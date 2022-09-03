@@ -2,6 +2,10 @@
   font-family: 'Raleway', sans-serif;
 }
 
+body {
+  background-color: rgb(60, 60, 60);
+}
+
 /* !!!!! NAVBAR ON ALL HTML FILES !!!!! */
 
 header {
@@ -36,3 +40,21 @@ nav li a:hover {
 }
 
 /* !!!!! INDEX.HTML CAROUSEL SECTION !!!!! */
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.aboutlink {
+  text-decoration: none;
+  color: white;
+}
+
+.aboutlink:hover {
+  color: rgb(150, 150, 150);
+} 
