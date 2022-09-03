@@ -1,3 +1,9 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* !!!!! NAVBAR ON ALL HTML FILES !!!!! */
+
 header {
   background-color: rgb(40, 40, 40);
   display: flex;
@@ -28,3 +34,5 @@ nav li a {
 nav li a:hover {
   color: rgb(100, 127, 144);
 }
+
+/* !!!!! INDEX.HTML CAROUSEL SECTION !!!!! */
