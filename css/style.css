@@ -58,3 +58,39 @@ nav li a:hover {
 .aboutlink:hover {
   color: rgb(150, 150, 150);
 } 
+
+/* !!!!! MEDIA SCREEN SIZING SECTION !!!!! */
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: mediumaquamarine;
+  }
+  div.container.carouselbox {
+    display: flex;
+    max-width: 950px;
+  }
+  nav ul li {
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    background-color: lightblue;
+  }
+  header {
+    display: inline-block;
+  }
+  .title {
+    text-align: center;
+  }
+  nav {
+    width: 100%;
+    margin-left: 0;
+  }
+  nav ul {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+  }
+}
