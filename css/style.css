@@ -162,6 +162,15 @@ footer h2 {
   .carousel-caption p {
     font-size: 0.60rem;
   }
+  .row.about {
+    background-color: transparent;
+  }
+  .col-8 {
+    padding: 60px 10px;
+  }
+  .col-4 img {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 720px) {
