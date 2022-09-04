@@ -151,7 +151,7 @@ footer h2 {
     max-width: 950px;
   }
   nav ul li {
-    margin: 20px;
+    margin: 18px;
   }
   .carousel-caption {
     height: 70px;
@@ -170,6 +170,11 @@ footer h2 {
   }
   .col-4 img {
     width: 100%;
+  }
+  .formbox {
+    color: rgb(225, 225, 225);
+    padding: 40px 0;
+    margin-top: 60px;
   }
 }
 
