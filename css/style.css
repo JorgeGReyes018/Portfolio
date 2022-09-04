@@ -59,12 +59,41 @@ nav li a:hover {
   color: rgb(150, 150, 150);
 } 
 
+/* !!!!! MY WORKS SECTION !!!!! */
+.row {
+  background-color: rgb(40, 40, 40);
+  text-align: center;
+  padding: 20px;
+}
+.row img {
+  opacity:0.7;
+
+}
+.row img:hover {
+	opacity:1;
+  
+	-webkit-transition:opacity 200ms ease;
+	transition:opacity 200ms ease;
+}
+
+.col {
+  margin: 10px;
+}
+
+footer {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  height: 100px;
+  text-align: center;
+}
+footer h2 {
+  font-family: Arial, Helvetica, sans-serif ;
+  font-size: 16px;
+  padding-top: 40px;
+}
 /* !!!!! MEDIA SCREEN SIZING SECTION !!!!! */
 
 @media only screen and (max-width: 1000px) {
-  body {
-    background-color: mediumaquamarine;
-  }
   div.container.carouselbox {
     display: flex;
     max-width: 950px;
@@ -84,9 +113,6 @@ nav li a:hover {
 }
 
 @media only screen and (max-width: 720px) {
-  body {
-    background-color: lightblue;
-  }
   header {
     display: inline-block;
   }
