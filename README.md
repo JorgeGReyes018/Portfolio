@@ -5,7 +5,7 @@ Hello, my name is Jorge Reyes.
 
 This project serves as my portfolio for the time being. I do intend to expand it further as I learn.
 
-Details on how to use it or what functionality is offered: TBA
+Once I have completed the bootcamp and some projects the grid in the home page would house the collection of my individual projects, the carousel serves as a showcase for upcoming projects or highlights. Contact page serves as a business inquiry section and the about me page is so that people can see the kind of person I am.
 
 This project uses HTML, CSS, Bootstrap, Git, and Github.
 
