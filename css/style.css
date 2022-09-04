@@ -6,7 +6,7 @@ body {
   background-color: rgb(60, 60, 60);
 }
 
-/* !!!!! NAVBAR ON ALL HTML FILES !!!!! */
+/* !!!!! NAVBAR/HEADER ON ALL HTML FILES !!!!! */
 
 header {
   background-color: rgb(40, 40, 40);
@@ -39,6 +39,21 @@ nav li a:hover {
   color: rgb(100, 127, 144);
 }
 
+/* !!!!! FOOTER ON ALL HTML FILES !!!!! */
+
+footer {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  height: 100px;
+  text-align: center;
+}
+
+footer h2 {
+  font-family: Arial, Helvetica, sans-serif ;
+  font-size: 16px;
+  padding-top: 40px;
+}
+
 /* !!!!! INDEX.HTML CAROUSEL SECTION !!!!! */
 
 .carousel-caption {
@@ -59,38 +74,54 @@ nav li a:hover {
   color: rgb(150, 150, 150);
 } 
 
-/* !!!!! MY WORKS SECTION !!!!! */
-.row {
+/* !!!!! INDEX.HTML MY WORKS SECTION !!!!! */
+
+.row.works {
   background-color: rgb(40, 40, 40);
   text-align: center;
   padding: 20px;
 }
-.row img {
+
+.row.works img {
   opacity:0.7;
 
 }
-.row img:hover {
+
+.row.works img:hover {
 	opacity:1;
   
 	-webkit-transition:opacity 200ms ease;
 	transition:opacity 200ms ease;
 }
 
-.col {
-  margin: 10px;
+.col.works {
+  margin: 20px;
 }
 
-footer {
-  background-color: rgb(15, 15, 15);
+/* !!!!! ABOUT.HTML PROFILE SECTION !!!!! */
+
+.row.about {
+  background-color: rgb(70, 70, 70);
   color: white;
-  height: 100px;
-  text-align: center;
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-footer h2 {
-  font-family: Arial, Helvetica, sans-serif ;
-  font-size: 16px;
-  padding-top: 40px;
+
+.col-8 {
+  padding: 85px;
 }
+
+.col-8 p {
+  padding: 20px 40px 20px 10px;
+}
+
+.col-4 img {
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
 /* !!!!! MEDIA SCREEN SIZING SECTION !!!!! */
 
 @media only screen and (max-width: 1000px) {
