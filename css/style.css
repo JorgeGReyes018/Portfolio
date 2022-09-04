@@ -122,6 +122,14 @@ footer h2 {
   border-radius: 8px;
 }
 
+/* !!!!! CONTACT.HTML FORM SECTION !!!!! */
+
+.formbox {
+  color: rgb(225, 225, 225);
+  padding: 40px 200px;
+  margin-top: 60px;
+}
+
 /* !!!!! MEDIA SCREEN SIZING SECTION !!!!! */
 
 @media only screen and (max-width: 1000px) {
