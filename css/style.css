@@ -42,7 +42,7 @@ nav li a:hover {
 nav li.trigram {
   display: none;
 }
-.pageTop {
+div.pageTop {
   margin-top: 113px;
 }
 
