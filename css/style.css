@@ -10,33 +10,37 @@ body {
 
 header {
   background-color: rgb(40, 40, 40);
+  position: fixed;
+  top: 0;
   display: flex;
   color: white;
+  width: 100%;
   padding: 10px;
+  z-index: 99;
 }
-
 .title a {
   text-decoration: none;
   color: black;
 }
-
 nav {
   margin: 30px 20px 0;
+  position: absolute;
+  right: 0;
 }
-
 nav li {
   display: inline;
   font-size: 18px;
-  margin: 30px;
+  margin: 20px;
 }
-
 nav li a {
   text-decoration: none;
   color: white;
 }
-
 nav li a:hover {
   color: rgb(100, 127, 144);
+}
+nav li.trigram {
+  display: none;
 }
 
 /* !!!!! FOOTER ON ALL HTML FILES !!!!! */
@@ -45,17 +49,20 @@ footer {
   background-color: rgb(15, 15, 15);
   color: white;
   height: 100px;
+  width: 100%;
+  right: 0;
+}
+footer h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-top: 40px;
   text-align: center;
 }
 
-footer h2 {
-  font-family: Arial, Helvetica, sans-serif ;
-  font-size: 16px;
-  padding-top: 40px;
-}
-
 /* !!!!! INDEX.HTML CAROUSEL SECTION !!!!! */
-
+.carouselbox {
+  margin-top: 120px;
+}
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.9);
 }
@@ -145,13 +152,10 @@ footer h2 {
 
 /* !!!!! MEDIA SCREEN SIZING SECTION !!!!! */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   div.container.carouselbox {
     display: flex;
     max-width: 950px;
-  }
-  nav ul li {
-    margin: 18px;
   }
   .carousel-caption {
     height: 70px;
@@ -178,20 +182,36 @@ footer h2 {
   }
 }
 
-@media only screen and (max-width: 720px) {
-  header {
-    display: inline-block;
+@media only screen and (max-width: 767px) {
+  ul.topnav li {
+    display: none;
   }
-  .title {
-    text-align: center;
+  ul.topnav li.trigram {
+    display: flex;
+    float: right;
+    margin: 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
   }
-  nav {
-    width: 100%;
-    margin-left: 0;
+  ul.topnav.responsive {
+    position: relative;
+    background: rgb(40, 40, 40);
+    width: 180px;
+    margin-top: 66px;
+    z-index: 99;
   }
-  nav ul {
-    margin: auto;
-    padding: 0;
-    text-align: center;
+  ul.topnav.responsive li {
+    display: inline-flex;
+    text-align: right;
   }
+  ul.topnav.responsive li a {
+    display: flex;
+    text-align: right;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+
 }
