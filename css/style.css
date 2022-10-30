@@ -108,7 +108,7 @@ footer h2 {
 
 /* !!!!! ABOUT.HTML PROFILE SECTION !!!!! */
 
-.aboutTop {
+.pageTop {
   margin-top: 113px;
 }
 .row.about {
@@ -136,21 +136,28 @@ footer h2 {
 
 .formbox {
   color: rgb(225, 225, 225);
-  padding: 40px 200px;
-  margin-top: 60px;
+  padding: 100px 200px;
 }
 
 .formbox h3,
 .formbox p {
   text-align: center;
-  margin-bottom: 23px;
+  padding-top: 40px;
+  margin-bottom: 20px;
 }
 
 .box {
   border: 1px solid rgb(20, 20, 20);
   border-radius: 8px;
   margin: 10px;
-  padding: 18px;
+  padding: 50px 18px;
+  margin-top: 60px;
+}
+.box div {
+  padding-top: 10px;
+}
+.box div button {
+  margin-top: 20px;
 }
 
 /* !!!!! MEDIA SCREEN SIZING SECTION !!!!! */
@@ -179,6 +186,11 @@ footer h2 {
     padding: 30px 50px;
     width: 100%;
   }
+  .col-8 h3,
+  .col-8 h4,
+  .col-8 p {
+    margin: 30px 0px;
+  }
   .col-8 h3 {
     font-size: 1.6rem;
   }
@@ -199,8 +211,10 @@ footer h2 {
   /* CONTACT */
   .formbox {
     color: rgb(225, 225, 225);
-    padding: 40px 0;
-    margin-top: 60px;
+    padding: 100px 0;
+  }
+  .box {
+    margin: 102px 10px;
   }
 }
 
@@ -233,6 +247,9 @@ footer h2 {
   }
   .selfFL img {
     width: 50%;
+  }
+  .formbox h3 {
+    padding: 40px 10px;
   }
 }
 
