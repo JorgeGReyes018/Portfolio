@@ -42,6 +42,9 @@ nav li a:hover {
 nav li.trigram {
   display: none;
 }
+.pageTop {
+  margin-top: 113px;
+}
 
 /* !!!!! FOOTER ON ALL HTML FILES !!!!! */
 
@@ -108,9 +111,6 @@ footer h2 {
 
 /* !!!!! ABOUT.HTML PROFILE SECTION !!!!! */
 
-.pageTop {
-  margin-top: 113px;
-}
 .row.about {
   background-color: rgb(70, 70, 70);
   color: white;
