@@ -62,6 +62,7 @@ footer h2 {
 /* !!!!! INDEX.HTML CAROUSEL SECTION !!!!! */
 .carouselbox {
   margin-top: 120px;
+  margin-bottom: 7px;
 }
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.9);
@@ -72,12 +73,12 @@ footer h2 {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.aboutlink {
+.carouselLink {
   text-decoration: none;
   color: white;
 }
 
-.aboutlink:hover {
+.carouselLink:hover {
   color: rgb(150, 150, 150);
 } 
 
