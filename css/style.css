@@ -108,6 +108,9 @@ footer h2 {
 
 /* !!!!! ABOUT.HTML PROFILE SECTION !!!!! */
 
+.aboutTop {
+  margin-top: 113px;
+}
 .row.about {
   background-color: rgb(70, 70, 70);
   color: white;
@@ -116,7 +119,6 @@ footer h2 {
   align-items: center;
   justify-content: center;
 }
-
 .col-8 {
   padding: 85px;
 }
@@ -154,6 +156,7 @@ footer h2 {
 /* !!!!! MEDIA SCREEN SIZING SECTION !!!!! */
 
 @media only screen and (max-width: 1024px) {
+  /* HOME */
   div.container.carouselbox {
     display: flex;
     max-width: 950px;
@@ -167,15 +170,33 @@ footer h2 {
   .carousel-caption p {
     font-size: 0.60rem;
   }
+  /* ABOUT */
   .row.about {
-    background-color: transparent;
+    display: block;
+    text-align: center; 
   }
   .col-8 {
-    padding: 60px 10px;
-  }
-  .col-4 img {
+    padding: 30px 50px;
     width: 100%;
   }
+  .col-8 h3 {
+    font-size: 1.6rem;
+  }
+  .col-8 h4 {
+    font-size: 1.3rem;
+  }
+  .col-8 p {
+    font-size: 1rem;
+    padding: 20px 10px;
+  }
+  .col-4 {
+    width: 100%;
+
+  }
+  .selfFL img {
+    width: 30%;
+  }
+  /* CONTACT */
   .formbox {
     color: rgb(225, 225, 225);
     padding: 40px 0;
@@ -210,9 +231,25 @@ footer h2 {
     display: flex;
     text-align: right;
   }
+  .selfFL img {
+    width: 50%;
+  }
 }
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-
+  header {
+    height: 113px;
+    width: 100%;
+  }
+  .title img {
+    width: 196px;
+    margin-top: 6px;
+  }
+  .col-8 {
+    padding: 30px 20px;
+  }
+  .selfFL img {
+    width: 60%;
+  }
 }
