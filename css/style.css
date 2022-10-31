@@ -1,5 +1,5 @@
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 body {
@@ -69,6 +69,7 @@ footer h2 {
 }
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.9);
+  display: block;
 }
 
 .carousel-control-prev,
@@ -83,26 +84,26 @@ footer h2 {
 
 .carouselLink:hover {
   color: rgb(150, 150, 150);
-} 
+}
 
 /* !!!!! INDEX.HTML MY WORKS SECTION !!!!! */
 
 .row.works {
   background-color: rgb(40, 40, 40);
+  display: flex;
   text-align: center;
   padding: 20px;
 }
 
 .row.works img {
-  opacity:0.7;
-
+  opacity: 0.7;
 }
 
 .row.works img:hover {
-	opacity:1;
-  
-	-webkit-transition:opacity 200ms ease;
-	transition:opacity 200ms ease;
+  opacity: 1;
+
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
 }
 
 .col.works {
@@ -175,12 +176,12 @@ footer h2 {
     font-size: 1rem;
   }
   .carousel-caption p {
-    font-size: 0.60rem;
+    font-size: 0.6rem;
   }
   /* ABOUT */
   .row.about {
     display: block;
-    text-align: center; 
+    text-align: center;
   }
   .col-8 {
     padding: 30px 50px;
@@ -203,7 +204,6 @@ footer h2 {
   }
   .col-4 {
     width: 100%;
-
   }
   .selfFL img {
     width: 30%;
@@ -245,6 +245,15 @@ footer h2 {
     display: flex;
     text-align: right;
   }
+  .carousel-caption {
+    display: none;
+  }
+  div.col {
+    margin: auto;
+  }
+  div.col a img {
+    width: 280px;
+  }
   .selfFL img {
     width: 50%;
   }
@@ -265,6 +274,9 @@ footer h2 {
   }
   .col-8 {
     padding: 30px 20px;
+  }
+  div.col a img {
+    width: 180px;
   }
   .selfFL img {
     width: 60%;
