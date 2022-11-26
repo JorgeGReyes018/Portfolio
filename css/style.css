@@ -9,7 +9,7 @@ body {
 /* !!!!! NAVBAR/HEADER ON ALL HTML FILES !!!!! */
 
 header {
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(20, 20, 20);
   position: fixed;
   top: 0;
   display: flex;
@@ -37,7 +37,8 @@ nav li a {
   color: white;
 }
 nav li a:hover {
-  color: rgb(100, 127, 144);
+  color: rgb(61, 174, 72);
+  text-decoration: underline;
 }
 nav li.trigram {
   display: none;
@@ -49,7 +50,7 @@ div.pageTop {
 /* !!!!! FOOTER ON ALL HTML FILES !!!!! */
 
 footer {
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(40, 40, 40);
   color: white;
   height: 100px;
   width: 100%;
@@ -89,7 +90,7 @@ footer h2 {
 /* !!!!! INDEX.HTML MY WORKS SECTION !!!!! */
 
 .row.works {
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(20, 20, 20);
   display: flex;
   text-align: center;
   padding: 20px;
@@ -218,6 +219,7 @@ footer h2 {
   }
 }
 
+/* Media Query for Mobile Devices */
 @media only screen and (max-width: 767px) {
   ul.topnav li {
     display: none;
@@ -262,15 +264,10 @@ footer h2 {
   }
 }
 
-/* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   header {
     height: 113px;
     width: 100%;
-  }
-  .title img {
-    width: 196px;
-    margin-top: 6px;
   }
   .col-8 {
     padding: 30px 20px;
@@ -280,5 +277,11 @@ footer h2 {
   }
   .selfFL img {
     width: 60%;
+  }
+}
+
+@media (max-width: 290px) {
+  div.col a img {
+    width: 136px;
   }
 }
