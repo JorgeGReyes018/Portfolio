@@ -26,6 +26,7 @@ nav {
   margin: 30px 20px 0;
   position: absolute;
   right: 0;
+  width: 500px;
 }
 nav li {
   display: inline;

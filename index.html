@@ -1,111 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jorge G Reyes Portfolio</title>
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CDN & CSS file link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jorge G Reyes Portfolio</title>
-  <!-- font links -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet" />
-  <!-- Bootstrap CDN & CSS file link -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-  <header class="container-fluid">
-    <div class="title">
-      <a href="index.html"><img src="images/logo-color2.png" alt="" /></a>
-    </div>
-    <nav>
-      <ul class="topnav" id="trigramclick">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li>
-          <a href="https://github.com/JorgeGReyes018" target="_blank">Github</a>
-        </li>
-        <li class="trigram">
-          <a href="javascript:void(0)" onclick="dropdownmenu()">&#9776;</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <div class="container carouselbox">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
+  <body>
+    <header class="container-fluid">
+      <div class="title">
+        <a href="index.html"><img src="images/logo-color2.png" alt="" /></a>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/selfPN.jpg" class="d-block w-100" alt="Image of me, Jorge Reyes" />
-          <div class="carousel-caption">
-            <h5>Hi, my name is Jorge</h5>
-            <a href="about.html" class="carouselLink">
-              <p>
-                Click here to learn more about me and my programming career so
-                far.
-              </p>
-            </a>
+      <nav>
+        <ul class="topnav" id="trigramclick">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" href="#">My Works</a>
+          </li>
+          <li>
+            <a href="https://github.com/JorgeGReyes018" target="_blank"
+              >Github</a
+            >
+          </li>
+          <li class="trigram">
+            <a href="javascript:void(0)" onclick="dropdownmenu()">&#9776;</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container carouselbox">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/selfPN.jpg"
+              class="d-block w-100"
+              alt="Image of me, Jorge Reyes"
+            />
+            <div class="carousel-caption">
+              <h5>Hi, my name is Jorge</h5>
+              <a href="about.html" class="carouselLink">
+                <p>
+                  Click here to learn more about me and my programming career so
+                  far.
+                </p>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/YoyiDesigns.png"
+              class="d-block w-100"
+              alt="Screenshot of YoyiDesigns Website"
+            />
+            <div class="carousel-caption">
+              <h5>Yoyi Designs Online Site</h5>
+              <a
+                href="https://www.yoyidesigns.com/"
+                target="_blank"
+                class="carouselLink"
+              >
+                <p>
+                  My E-Commerce website that is under construction, coming soon.
+                </p>
+              </a>
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="images/YoyiDesigns.png" class="d-block w-100" alt="Screenshot of YoyiDesigns Website" />
-          <div class="carousel-caption">
-            <h5>Yoyi Designs Online Site</h5>
-            <a href="https://www.yoyidesigns.com/" target="_blank" class="carouselLink">
-              <p>
-                My E-Commerce website that is under construction, coming soon.
-              </p>
-            </a>
-          </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container-fluid myWorks">
+      <div class="row works">
+        <div class="col works">
+          <a href="#"><img src="images/tile1-1.png" alt="Work one" /></a>
+        </div>
+        <div class="col works">
+          <a href="https://jorgegreyes018.github.io/Project-2-GIPHY-API/"
+            ><img src="images/tile2-1.png" alt="GIPHY API"
+          /></a>
+        </div>
+        <div class="col works">
+          <a href="#"><img src="images/tile3-1.png" alt="Work three" /></a>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-  </div>
-  <div class="container-fluid myWorks">
-    <div class="row works">
-      <div class="col works">
-        <a href="#"><img src="images/tile1-1.png" alt="Work one" /></a>
+    <footer>
+      <div class="container-fluid">
+        <h2>JorgeGReyes018@yahoo.com</h2>
       </div>
-      <div class="col works">
-        <a href="https://jorgegreyes018.github.io/Project-2-GIPHY-API/"><img src="images/tile2-1.png"
-            alt="GIPHY API" /></a>
-      </div>
-      <div class="col works">
-        <a href="#"><img src="images/tile3-1.png" alt="Work three" /></a>
-      </div>
-    </div>
-  </div>
-  <footer>
-    <div class="container-fluid">
-      <h2>JorgeGReyes018@yahoo.com</h2>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-    crossorigin="anonymous"></script>
-  <script src="script.js"></script>
-</body>
-
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
