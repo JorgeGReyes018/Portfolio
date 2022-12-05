@@ -7,26 +7,30 @@ body {
 }
 
 /* !!!!! NAVBAR/HEADER ON ALL HTML FILES !!!!! */
-
-header {
-  background-color: rgb(20, 20, 20);
-  position: fixed;
-  top: 0;
-  display: flex;
-  color: white;
-  width: 100%;
-  padding: 10px;
+.logo {
   z-index: 99;
-}
-.title a {
-  text-decoration: none;
-  color: black;
+  min-width: 100px;
+  min-height: 100px;
 }
 nav {
-  margin: 30px 20px 0;
-  position: absolute;
-  right: 0;
-  width: 500px;
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  width: 100%;
+}
+.navbar-nav {
+  margin-right: 20px;
+}
+#navbarNavDropdown {
+    margin-left: auto;
+    flex-direction: row-reverse}
+.nav-link {
+    color: white;
+}
+.dropdown-menu {
+    background-color: rgb(20, 20, 20);
+} 
+.dropdown-item {
+    color: white;
 }
 nav li {
   display: inline;
@@ -35,40 +39,48 @@ nav li {
 }
 nav li a {
   text-decoration: none;
-  color: white;
 }
-nav li a:hover {
+.nav-link:hover {
   color: rgb(61, 174, 72);
   text-decoration: underline;
 }
-nav li.trigram {
-  display: none;
+.navbar-toggler-icon {
+    width: 1em;
+    height: 1.5em;
 }
-div.pageTop {
-  margin-top: 113px;
-}
-
 /* !!!!! FOOTER ON ALL HTML FILES !!!!! */
-
 footer {
-  background-color: rgb(40, 40, 40);
-  color: white;
-  height: 100px;
   width: 100%;
-  right: 0;
+  display: flex;
+  padding-bottom: 20px;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+}
+footer div {
+  margin: auto;
+  display: flex;
+}
+.midfoot {
+  flex-direction: column;
+}
+footer h2,
+footer p {
+  color: white;
+  margin: 10px auto;
+  font-size: 1rem;
+}
+footer p a {
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
 }
 footer h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  padding-top: 40px;
-  text-align: center;
+  margin-top: 30px;
 }
-
+.sociallogo {
+  margin-right: 30px;
+}
 /* !!!!! INDEX.HTML CAROUSEL SECTION !!!!! */
-.carouselbox {
-  margin-top: 120px;
-  margin-bottom: 7px;
-}
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.9);
   display: block;
