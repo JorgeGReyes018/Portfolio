@@ -178,6 +178,16 @@ footer h2 {
 /* !!!!! MEDIA SCREEN SIZING SECTION !!!!! */
 
 @media only screen and (max-width: 1024px) {
+  .midfoot {
+    max-width: 20%;
+  }
+  footer h2,
+  footer p {
+  font-size: .7rem;
+  }
+  footer p a {
+  font-size: 8px;
+  }
   /* HOME */
   div.container.carouselbox {
     display: flex;
@@ -275,6 +285,34 @@ footer h2 {
   .formbox h3 {
     padding: 40px 10px;
   }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftfoot {
+    display: none;
+  }
+  .rightfoot {
+    margin: 10px auto;
+  }
+  .rightfoot,
+  .midfoot {
+    width: 100%;
+    min-width: 200px;
+    display: flex;
+    margin: auto;
+  }
+  .sociallogo {
+    margin: auto;
+  }
+  .right {
+    width: 86%;
+    margin: auto;
+    padding-top: 30px;
+  }
+  .col-1 {
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -290,6 +328,26 @@ footer h2 {
   }
   .selfFL img {
     width: 60%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .rightfoot,
+  .midfoot {
+    width: 100%;
+    min-width: 200px;
+    display: flex;
+    margin: auto;
+  }
+  .rightfoot {
+    margin: 10px auto;
+  }
+  .col-1 {
+    width: 100%;
+  }
+  .sociallogo {
+    margin: auto;
   }
 }
 
